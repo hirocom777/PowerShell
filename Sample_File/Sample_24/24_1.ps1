@@ -1,0 +1,3 @@
+# 24_1.ps1 
+ConvertTo-Json @{'ONE' = 1 ; 'TWO' = 2 ; 'THREE' = 3 } |
+Set-Content output.json
